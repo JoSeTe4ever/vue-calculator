@@ -29,14 +29,12 @@ export default {
   props: {
     msg: String,
   },
-  data() {
-    return {
+  data: () => ({
       operatorClicked: false,
       previous: null,
       current: '',
       operator: null,
-    }
-  },
+    }),
   methods: {
     setPrevious() {
       this.previous = this.current

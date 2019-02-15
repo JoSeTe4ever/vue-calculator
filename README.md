@@ -1,5 +1,8 @@
 # vue-calculator
 
+
+![VueCalculator](public/demo.jpg?raw=true "Pet Calculator")
+
 ## Project setup
 ```
 yarn install
